@@ -1,13 +1,9 @@
 # Very basic Django example
 
----
-
 ## Requirements
 
 - python 3
 - virtualenv
-
----
 
 ## Setup
 
@@ -33,8 +29,6 @@ Initialize Django->Sqlite
 python src/manage.py migrate
 ```
 
---- 
-
 ## Development
 
 Create a new Django app
@@ -53,10 +47,10 @@ Manage request routing in the `urls.py` file
 
 Manage models available on the `/admin` page in the `admin.py` file
 
-Example of models file: (here)[https://github.com/hsadler/learn-django/blob/main/30-min-tutorial/src/posts/models.py]
+Example of models file: [here](https://github.com/hsadler/learn-django/blob/main/30-min-tutorial/src/posts/models.py)
 
-Example of views file: (here)[https://github.com/hsadler/learn-django/blob/main/30-min-tutorial/src/posts/views.py]
+Example of views file: [here](https://github.com/hsadler/learn-django/blob/main/30-min-tutorial/src/posts/views.py)
 
-Example of embedded python template: (here)[https://github.com/hsadler/learn-django/blob/main/30-min-tutorial/src/posts/templates/posts/index.html]
+Example of embedded python template: [here](https://github.com/hsadler/learn-django/blob/main/30-min-tutorial/src/posts/templates/posts/index.html)
 
 Refer to the Makefile for other common Django CLI commands.
